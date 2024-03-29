@@ -12,6 +12,18 @@
         android:theme="@style/Theme.Review_analyze"
         tools:targetApi="31">
         <activity
+            android:name=".BenefitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SolutionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeficitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChoiceAnalyzeActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
